@@ -37,7 +37,8 @@ const char * const IP6TABLES_PATH = "/system/bin/ip6tables";
 const char * const IPTABLES_RESTORE_PATH = "/system/bin/iptables-restore";
 const char * const IP6TABLES_RESTORE_PATH = "/system/bin/ip6tables-restore";
 const char * const TC_PATH = "/system/bin/tc";
-const char * const IP_PATH = "/system/bin/ip";
+//HLABS, temp fix, skip ip command to cause lost NFS server connection 
+const char * const IP_PATH = "";
 const char * const ADD = "add";
 const char * const DEL = "del";
 
